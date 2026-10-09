@@ -30,8 +30,12 @@ Da CONFERMARE con il club prima di pubblicare:
     Forniti dal club e NON verificati online: 12 titoli ITF del vivaio, titolo in doppio ITF M25 S. Margherita di Pula 2026
     (nelle fonti consultate la settimana del 4/5/2026 risulta persa al 1. turno: potrebbe essere un'altra settimana),
     campione italiano a squadre 2025, 4 Campionati Europei con la Nazionale. Da confermare col club prima di pubblicare.
-  - privacy policy / cookie: il sito non usa cookie ne' servizi terzi in pagina; aggiungere comunque
-    una pagina privacy con i dati del titolare (SSD Bassa Comasca S.r.l., P.IVA, sede)
+  - privacy.html: informativa privacy + note legali + copyright (sito (c) Jemaian, contenuti (c) SSD Bassa Comasca).
+    Segnaposto in giallo da completare: codice fiscale, REA, capitale sociale, PEC. Testo redatto da AI: far rileggere
+    a un legale prima della messa online definitiva.
+  - CONSENSI DA RACCOGLIERE (scritti): Lorenzo Rottoli (foto/video/nome/palmares), Flavio Cobolli (foto medaglie
+    e video; in alternativa ripristinare la sfocatura), atleti nelle foto 'I campi' (se minorenni: genitori),
+    Pizzeria da Aldo (uso del logo)
 
 DOMINIO: www.lomazzosportclub.it (Register.it, acquistato da Jemaian). HOSTING: GRATUITO.
   Opzione consigliata: Cloudflare Pages (gratis, HTTPS automatico, redirect www/https gestiti dal pannello)
