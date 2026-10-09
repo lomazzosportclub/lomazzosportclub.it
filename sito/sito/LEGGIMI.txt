@@ -1,0 +1,82 @@
+LOMAZZO SPORT CLUB - SITO FINALE (versione per la pubblicazione) - ottobre 2026
+
+Caricare TUTTA la cartella "sito" sull'hosting, mantenendo la struttura:
+  index.html                     pagina unica con intro 3D (Three.js incorporato)
+  logo-lomazzo-sport-club.svg    logo (favicon e barra in alto)
+  fonts/                         Archivo + Chakra Petch (file locali: nessuna chiamata a Google Fonts, niente cookie)
+  foto/                          2 foto di Lorenzo Rottoli dall'Instagram del club, volto sfocato
+
+Link attivi:
+  Prenota padel   -> https://playtomic.com/clubs/ssd-bassa-comasca
+  Prenota tennis  -> telefono o WhatsApp +39 334 173 0036
+  Contatti (icone telefono / WhatsApp / email) -> +39 334 173 0036, lomazzosportclub@gmail.com
+  Numero ed email NON sono scritti in pagina: solo icone e link (tel:, wa.me, mailto:)
+  Scuola tennis   -> stesso numero 334 173 0036
+
+Da CONFERMARE con il club prima di pubblicare:
+  - email lomazzosportclub@gmail.com
+  - orari segreteria lun-sab 9-12 / 14-19, dom 9-12 (da Maxi) e orari campi lun-ven 9-23, sab-dom 9-18 (da Maxi; su Playtomic risulta apertura 8:30: allineare la scheda Playtomic)
+  - foto di Lorenzo a volto scoperto: approvate da Maxi; diritti d'uso dei post Instagram del club da confermare col club
+  - Kids Summer Camp: dati dal volantino Instagram 2023 (12 giugno-28 luglio, 5-14 anni, 8:30-17, pranzo): confermare le date 2027
+  - foto EYOF 2017 (archivio famiglia/club, cartella foto/eyof2017_*): volti sfocati solo per
+    volontari del podio e fotografo. Flavio Cobolli (foto medaglie) a volto scoperto su indicazione di Maxi; anche il
+    giocatore della foto 'preparazione atletica' e' a volto scoperto su indicazione di Maxi: da confermare col club
+  - WORDING: le due medaglie EYOF 2017 sono presentate come 'medaglie olimpiche' su richiesta di Maxi; il nome esatto
+    dell'evento (Festival Olimpico della Gioventu' Europea) resta nel testo del palmares e nelle fonti
+  - video premiazione doppio (video/eyof2017_premiazione-doppio.mp4): ricompresso da 11 MB a 2,2 MB, caricato SOLO al clic
+    (preload=none + poster): non pesa sul caricamento della pagina. Volti a distanza, non riconoscibili (nessuna sfocatura)
+  - dati palmares: verificati su fonti pubbliche = 3 titoli ITF singolare 2023, Challenger Genova 2023 doppio, best ranking
+    403/245, finale Sharm 2022, qualificazioni Como 2026, EYOF Gyor 2017 2 ori (singolare + doppio con Cobolli).
+    Forniti dal club e NON verificati online: 12 titoli ITF del vivaio, titolo in doppio ITF M25 S. Margherita di Pula 2026
+    (nelle fonti consultate la settimana del 4/5/2026 risulta persa al 1. turno: potrebbe essere un'altra settimana),
+    campione italiano a squadre 2025, 4 Campionati Europei con la Nazionale. Da confermare col club prima di pubblicare.
+  - privacy.html: informativa privacy + note legali + copyright (sito (c) Jemaian, contenuti (c) SSD Bassa Comasca).
+    Segnaposto in giallo da completare: codice fiscale, REA, capitale sociale, PEC. Testo redatto da AI: far rileggere
+    a un legale prima della messa online definitiva.
+  - CONSENSI DA RACCOGLIERE (scritti): Lorenzo Rottoli (foto/video/nome/palmares), Flavio Cobolli (foto medaglie
+    e video; in alternativa ripristinare la sfocatura), atleti nelle foto 'I campi' (se minorenni: genitori),
+    Pizzeria da Aldo (uso del logo)
+
+DOMINIO: www.lomazzosportclub.it (Register.it, acquistato da Jemaian). HOSTING: GRATUITO.
+  Opzione consigliata: Cloudflare Pages (gratis, HTTPS automatico, redirect www/https gestiti dal pannello)
+  oppure GitHub Pages (gratis, HTTPS automatico). In entrambi i casi:
+  1. creare l'account (lo fa Maxi, con hello@jemaian.it) e caricare la cartella "sito" (drag & drop o repository)
+  2. aggiungere il dominio personalizzato www.lomazzosportclub.it nel pannello dell'hosting
+  3. su Register.it > DNS del dominio: record CNAME "www" -> l'host indicato dal pannello
+     (Cloudflare Pages: <progetto>.pages.dev; GitHub Pages: <utente>.github.io) e, per il dominio nudo,
+     i record A/ALIAS indicati dal pannello; attendere la propagazione (da minuti a 24 h)
+  4. attivare il redirect lomazzosportclub.it -> www e http -> https nel pannello dell'hosting
+  Il file .htaccess serve SOLO se si usa un hosting Apache (es. hosting Linux Register.it): sui due servizi sopra viene ignorato.
+  Nessun costo: dominio gia' pagato, hosting a 0 EUR. Nessuna sottoscrizione va attivata senza consenso scritto di Maxi.
+  Il vecchio www.lomazzosportclub.com non risponde: se e' ancora del club, impostare un redirect 301 al .it
+
+GOOGLE BUSINESS PROFILE (verifica fatta il 09/10/2026 da Google Maps, senza login):
+  - "Lomazzo Sport Club" (Sports club, 4.0, 108 recensioni, Via del Filagno 2): NON rivendicata - mostra "Rivendica
+    questa attivita'", nessun sito collegato. Quindi NON e' legata a lomazzosportclub@gmail.com ne' ad altri.
+  - "Padel Lomazzo Ssd Bassa Comasca" (Padel court, 4.9, 35 recensioni, stesso indirizzo): rivendicata (foto "dal
+    proprietario", sito playtomic.com). Con quale account Google non e' visibile dall'esterno.
+  Da fare, accedendo a business.google.com con lomazzosportclub@gmail.com (lo fa il club o Maxi, non Claude):
+  1. verificare se la scheda Padel compare tra le attivita' gestite; se no, chi l'ha rivendicata (forse Playtomic
+     o un ex gestore) deve trasferirla o si richiede l'accesso dalla scheda
+  2. rivendicare "Lomazzo Sport Club" (verifica Google via video/telefono/cartolina) e poi valutare l'UNIONE delle
+     due schede: una sola scheda "Lomazzo Sport Club" con categorie Centro sportivo + Campo da padel + Scuola di tennis,
+     sito www.lomazzosportclub.it, orari, foto. Due schede allo stesso indirizzo si cannibalizzano.
+  3. nella scheda: sito = https://www.lomazzosportclub.it, telefono 334 173 0036, link prenotazione = Playtomic
+
+SEO / VISIBILITA' (fatto nel file):
+  - title + meta description con parole chiave: padel Lomazzo, tennis Lomazzo, scuola tennis Lomazzo, campi padel coperti Como
+  - canonical, Open Graph + immagine social (og-lomazzo-sport-club.jpg 1200x630), apple-touch-icon
+  - dati strutturati schema.org: SportsActivityLocation (indirizzo, geo, orari, P.IVA, sameAs Playtomic/Instagram) + FAQPage
+  - sitemap.xml, robots.txt, .htaccess (redirect https+www, cache, compressione) - file nascosto: copiarlo!
+  - font e immagini locali, nessuna risorsa esterna: nessun cookie, nessun banner necessario
+DA FARE DOPO LA PUBBLICAZIONE (con l'account Google del club, serve il via libera di Maxi):
+  1. Google Search Console: verificare il dominio (record DNS TXT su Register.it) e inviare sitemap.xml
+  2. Google Business Profile: creare/rivendicare la scheda "Lomazzo Sport Club", Via del Filagno 2 - categoria
+     "Centro sportivo" + "Campo da padel" + "Scuola di tennis", sito www.lomazzosportclub.it, foto, orari
+  3. Aggiornare il link nella bio Instagram e su Playtomic con il nuovo dominio
+  4. Test online: PageSpeed Insights (mobile), validator.schema.org, Facebook Sharing Debugger
+TEST ESEGUITI PRIMA DELLA CONSEGNA (test_site.py, 41 controlli, 0 errori):
+  title/description lunghezza, un solo H1, alt su tutte le immagini, JSON-LD valido, link Playtomic,
+  nessuna risorsa esterna, intro WebGL + skip, nessun errore JS, nessun overflow su mobile, tabellone
+  e semafori generati, finestra contatti apre/chiude, tap target >= 40 px.
+  Da fare a mano: prova su iPhone e Android reali (fluidita' intro 3D) e in Safari.
